@@ -1,0 +1,32 @@
+Getting & Creating Projects
+git init – Initialize a new local Git repository.
+git clone <url> – Create a local copy of a remote repository (e.g., from GitHub). 
+Basic Snapshotting (Staging & Committing)
+git status – Check the status of files (modified, staged, untracked).
+git add <file> – Stage a specific file for commit.
+git add . or git add -A – Stage all changed files.
+git commit -m "Message" – Commit staged changes with a message.
+git commit -am "Message" – Stage and commit all tracked files in one step. 
+Branching & Merging
+git branch – List local branches (asterisk shows current branch).
+git branch -a – List all local and remote branches.
+git checkout -b <branch-name> – Create and switch to a new branch.
+git switch <branch-name> – Switch to a different branch (modern alternative to checkout).
+git merge <branch-name> – Merge a branch into the current branch.
+git branch -d <branch-name> – Safely delete a local branch. 
+Sharing & Updating Projects
+git push origin <branch-name> – Push a branch to the remote repository.
+git push -u origin <branch-name> – Push and set the upstream tracking (remembered branch).
+git pull – Fetch and merge changes from the remote repository.
+git remote add origin <url> – Link your local repo to a remote GitHub repo.
+git remote set-url origin <url> – Update the remote repository URL (e.g., switch from HTTPS to SSH). 
+Inspection & Comparison
+git log – View commit history.
+git log --oneline – Show a concise commit history.
+git diff – Show changes between working directory and staging area.
+git diff --staged – Show changes between staging area and last commit. 
+Undoing Changes
+git restore <file> – Discard local changes to a file (modern replacement for checkout --).
+git reset --soft HEAD~1 – Undo last commit but keep changes staged.
+git reset HEAD~1 – Undo last commit and move changes to working directory.
+git revert <commit> – Create a new commit that undoes a previous commit (safe for public branches). 
