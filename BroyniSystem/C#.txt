@@ -1,0 +1,11 @@
+Overview of C#
+C# (pronounced "C-sharp") is a modern, object-oriented, general-purpose programming language developed by Microsoft as part of the .NET initiative.  It combines the computational power of C++ with the simplicity of Visual Basic and is widely used for developing desktop applications, web applications (via ASP.NET), mobile apps (Xamarin), games (Unity), and enterprise software. 
+
+C# runs on the .NET runtime (CLR - Common Language Runtime), which provides services like memory management, security, and exception handling.  It's statically typed, supports strong typing, garbage collection, and includes modern features such as:
+
+LINQ (Language Integrated Query)
+Async/await for asynchronous programming
+Generics
+Delegates and events
+Pattern matching
+Records and nullable reference types
